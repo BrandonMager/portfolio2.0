@@ -1,5 +1,5 @@
 import React from "react";
-
+import {Link} from 'react-router-dom'
 var { SocialIcon } = require('react-social-icons');
 
 export default function Navbar() {
@@ -12,18 +12,18 @@ export default function Navbar() {
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap text-gray-500 text-2xl font-medium items-center text-base justify-center">
-          <a href="/" className="mr-5 hover:text-white">
+          <Link to="/" className="mr-5 hover:text-white">
             Home
-          </a>
-          <a href="/about" className="mr-5 hover:text-white">
+          </Link>
+          <Link to="/about" className="mr-5 hover:text-white">
             About
-          </a>
-          <a href="/projects" className="mr-5 hover:text-white">
+          </Link>
+          <Link to="/projects" className="mr-5 hover:text-white">
             Projects
-          </a>
-          <a href="/skills" className="mr-5 hover:text-white">
+          </Link>
+          <Link to="/skills" className="mr-5 hover:text-white">
             Skills
-          </a>
+          </Link>
           
           
         </nav>
