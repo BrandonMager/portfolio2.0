@@ -1,0 +1,5 @@
+/* /src/components/Home.js
+/about /src/components/About.js
+/skills /src/components/Skills.js
+/contact /src/components/Contact.js
+/projects /src/components/Project.js
