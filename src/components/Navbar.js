@@ -31,12 +31,12 @@ export default function Navbar() {
                     <li className = "inline-block mr-5"><SocialIcon url="https://linkedin.com/in/jaketrent" fgColor="white" /></li>
                     <li className = "inline-block mr-10"><SocialIcon url="https://github.com/BrandonMager" fgColor="white"/></li>
                 </ul>
-        <a
-          href="/contact"
+        <Link
+          to="/contact"
           className="inline-flex items-center text-white bg-gray-800 border-0 py-1 px-3 font-medium focus:outline-none hover:bg-white hover:text-black rounded text-base mt-4 md:mt-0">
           Contact Me
           
-        </a>
+        </Link>
       </div>
     </header>
   );
