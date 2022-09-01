@@ -15,7 +15,7 @@ export default function Home(){
               About Me
             </Link>
             <Link
-              href="/projects"
+              to="/projects"
               className="ml-4 text-gray-400 bg-gray-800 border-0 py-4 px-8 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
               See My Projects
             </Link>
